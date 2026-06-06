@@ -1,0 +1,26 @@
+{
+  "name": "@agentic/bot",
+  "version": "1.0.0",
+  "description": "Discord.js orchestration bot package",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npx tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.11.5",
+    "@libsql/client": "^0.6.2",
+    "discord.js": "^14.26.4",
+    "dotenv": "^16.6.1",
+    "drizzle-orm": "^0.30.10",
+    "esbuild": "^0.28.0",
+    "undici": "^6.26.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "tsx": "^4.22.4",
+    "typescript": "^5.9.3"
+  }
+}

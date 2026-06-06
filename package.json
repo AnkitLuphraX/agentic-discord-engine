@@ -1,0 +1,14 @@
+{
+  "name": "agentic-discord-engine",
+  "version": "1.0.0",
+  "description": "Multi-Agent Discord Orchestration Bot and Telemetry Dashboard",
+  "scripts": {
+    "dev:bot": "cd packages/bot && npm run dev",
+    "dev:web": "cd packages/web && npm run dev",
+    "build:bot": "cd packages/bot && npm run build",
+    "build:web": "cd packages/web && npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
